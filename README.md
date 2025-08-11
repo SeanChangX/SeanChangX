@@ -1,6 +1,6 @@
 ![header](https://capsule-render.vercel.app/api?type=blur&height=300&color=0:ee0979,100:ff6a00&section=header&reversal=false)
 
-<div align="justify">
+<div align="left">
 
 <h2> Hi there! I'm Sean Chang.</h2>
 
@@ -49,3 +49,5 @@
 - Email: scx@gapp.nthu.edu.tw
 
 ![Sean's GitHub stats](https://github-readme-stats.vercel.app/api?username=seanchangx&theme=github_dark&show_icons=true&icon_color=A71C1E&title_color=DE272C&hide_rank=false&include_all_commits=true&count_private=true&rank_icon=github)
+
+</div>
