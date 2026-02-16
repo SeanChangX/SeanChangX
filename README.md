@@ -86,6 +86,6 @@
 
 - Email: scx@gapp.nthu.edu.tw
 
-![Sean's GitHub stats](https://github-readme-stats.vercel.app/api?username=seanchangx&theme=github_dark&show_icons=true&icon_color=A71C1E&title_color=DE272C&hide_rank=false&include_all_commits=true&count_private=true&rank_icon=github)
+![Sean's GitHub stats](https://github-readme-stats.scx.vercel.app/api?username=seanchangx&theme=github_dark&show_icons=true&icon_color=A71C1E&title_color=DE272C&hide_rank=false&include_all_commits=true&count_private=true&rank_icon=github)
 
 </div>
