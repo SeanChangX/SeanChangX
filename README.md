@@ -84,7 +84,16 @@
 
 <h3> 🤝🏻 &nbsp;Connect with Me </h3>
 
-- Email: scx@gapp.nthu.edu.tw
+<table>
+  <tr>
+    <th align="left">Email</th>
+    <td><a href="mailto:scx@gapp.nthu.edu.tw">scx@gapp.nthu.edu.tw</a></td>
+  </tr>
+  <tr>
+    <th align="left">Support</th>
+    <td><a href="https://buymeacoffee.com/SeanChangX" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="217" height="60" /></a></td>
+  </tr>
+</table>
 
 ![Sean's GitHub stats](https://github-readme-stats.scx.vercel.app/api?username=seanchangx&theme=github_dark&show_icons=true&icon_color=A71C1E&title_color=DE272C&hide_rank=false&include_all_commits=true&count_private=true&rank_icon=github)
 
