@@ -8,7 +8,7 @@
 
 - 🎓 &nbsp; NTHU - Electrical Engineering
 - 😎 &nbsp; Robot software & hardware, Control, RL, AI...
-- 🤖 &nbsp; Robotics enthusiast, Technophile, Homelab builder, Network security and architecture
+- 🤖 &nbsp; Robotics enthusiast, Technophile, Homelab builder, Cybersecurity, Network architecture
 - 📺 &nbsp; YouTube Channel: [@SeanChangX](https://www.youtube.com/@SeanChangX)
 
 
@@ -44,6 +44,12 @@
     </td>
   </tr>
   <tr>
+    <th align="left">Frameworks</th>
+    <td>
+      <img alt="React" src="https://img.shields.io/badge/React-333333?logo=react&logoColor=61DAFB"/>
+    </td>
+  </tr>
+  <tr>
     <th align="left">Systems</th>
     <td>
       <img alt="Linux" src="https://img.shields.io/badge/Linux-333333?logo=linux&logoColor=FCC624"/>
@@ -51,6 +57,8 @@
       <img alt="Kali" src="https://img.shields.io/badge/Kali-333333?logo=kalilinux&logoColor=557C94"/>
       <img alt="Proxmox" src="https://img.shields.io/badge/Proxmox-333333?logo=proxmox&logoColor=E57300"/>
       <img alt="Docker" src="https://img.shields.io/badge/Docker-333333?logo=docker&logoColor=2496ED"/>
+      <img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-333333?logo=kubernetes&logoColor=326CE5"/>
+      <img alt="Home Assistant" src="https://img.shields.io/badge/Home_Assistant-333333?logo=homeassistant&logoColor=41BDF5"/>
     </td>
   </tr>
   <tr>
