@@ -1,0 +1,15 @@
+version: 2
+updates:
+  # Keeps the SHA-pinned actions in .github/workflows fresh. Dependabot reads the
+  # `# vX.Y.Z` comment next to each pin and updates the SHA and comment together,
+  # so updates arrive as a reviewable PR instead of silently moving under a tag.
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    commit-message:
+      prefix: "chore"
+    groups:
+      actions:
+        patterns:
+          - "*"

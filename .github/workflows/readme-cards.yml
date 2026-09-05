@@ -18,7 +18,9 @@ jobs:
   cards:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      # First-party action from GitHub itself: tracked by major tag so patches
+      # land automatically. Third-party actions below stay pinned by SHA.
+      - uses: actions/checkout@v7
 
       - name: Stats card (dark)
         uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
