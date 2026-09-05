@@ -236,9 +236,9 @@
 </table>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.scx.vercel.app/api?username=seanchangx&theme=github_dark&show_icons=true&icon_color=A71C1E&title_color=DE272C&hide_rank=false&include_all_commits=true&count_private=true&rank_icon=github"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.scx.vercel.app/api?username=seanchangx&show_icons=true&icon_color=A71C1E&title_color=DE272C&hide_rank=false&include_all_commits=true&count_private=true&rank_icon=github"/>
-  <img alt="Sean's GitHub stats" src="https://github-readme-stats.scx.vercel.app/api?username=seanchangx&show_icons=true&icon_color=A71C1E&title_color=DE272C&hide_rank=false&include_all_commits=true&count_private=true&rank_icon=github"/>
+  <source media="(prefers-color-scheme: dark)" srcset="profile/stats-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="profile/stats-light.svg"/>
+  <img alt="Sean's GitHub stats" src="profile/stats-light.svg"/>
 </picture>
 
 </div>

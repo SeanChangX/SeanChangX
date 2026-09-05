@@ -1,0 +1,48 @@
+name: Update README cards
+
+on:
+  schedule:
+    # 03:00 Asia/Taipei (UTC+8)
+    - cron: "0 19 * * *"
+  workflow_dispatch:
+
+# Least privilege: the job only needs to push the regenerated SVGs back.
+permissions:
+  contents: write
+
+concurrency:
+  group: readme-cards
+  cancel-in-progress: false
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Stats card (dark)
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
+        with:
+          card: stats
+          options: username=seanchangx&theme=github_dark&show_icons=true&icon_color=A71C1E&title_color=DE272C&hide_rank=false&include_all_commits=true&rank_icon=github
+          path: profile/stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+
+      - name: Stats card (light)
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
+        with:
+          card: stats
+          options: username=seanchangx&show_icons=true&icon_color=A71C1E&title_color=DE272C&hide_rank=false&include_all_commits=true&rank_icon=github
+          path: profile/stats-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+
+      - name: Commit regenerated cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/stats-dark.svg profile/stats-light.svg
+          git diff --staged --quiet && echo "no changes" && exit 0
+          git commit -m "chore: update README stats cards"
+          git push
